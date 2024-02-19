@@ -4,7 +4,6 @@ import cv2
 from cnn.neural_network import CNN
 from keras.utils import np_utils
 from keras.optimizers import SGD
-# from sklearn.datasets import fetch_mldata
 from sklearn.datasets import fetch_openml
 from sklearn.model_selection import train_test_split
 
