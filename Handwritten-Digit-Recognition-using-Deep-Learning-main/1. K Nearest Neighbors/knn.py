@@ -104,8 +104,8 @@ plt.xlabel('Predicted label')
 plt.axis('off')
 plt.show()
 
-# sys.stdout = old_stdout
-# log_file.close()
+sys.stdout = old_stdout
+log_file.close()
 
 
 
