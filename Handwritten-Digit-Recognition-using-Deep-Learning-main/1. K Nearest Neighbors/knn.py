@@ -13,9 +13,9 @@ style.use('ggplot')
 
 
 
-# old_stdout = sys.stdout
-# log_file = open("summary.log","w")
-# sys.stdout = log_file
+old_stdout = sys.stdout
+log_file = open("summary.log","w")
+sys.stdout = log_file
 
 
 print('\nLoading MNIST Data...')
